@@ -1,0 +1,11 @@
+{{#chats}}
+
+<div class="chat_message_sent {{chatterType}}">
+	<div class="chat_message_content">{{chatContent}}</div>
+	<div class="metadata">
+		<div class="chat_name">{{chatterType}}: {{chatter}}</div>
+		<div class="chat_message_time_stamp">{{timeInChat}}</div>
+	</div>
+</div>
+
+{{/chats}}

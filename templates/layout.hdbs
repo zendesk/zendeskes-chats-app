@@ -1,0 +1,4 @@
+<div class="chat-info"></div>
+<div class="chats"></div>
+
+(\d{2}:\d{2}:\d{2}\s*(PM|AM)).*([/sA-z]+:)

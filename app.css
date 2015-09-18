@@ -1,0 +1,31 @@
+.chat_message_content {
+	width: 80%;
+	padding: 10px;
+	border-radius: 10px;
+	color: white;
+}
+
+.user > .chat_message_content {
+	background-color: #3083FB;
+}
+
+.agent > .chat_message_content {
+	background-color: #89AF00;
+	float: right;
+}
+
+.chat_message_sent.agent {
+	text-align: right;
+}
+
+.agent > .chat_name {
+	clear: right;
+}
+
+.chat_message_sent > .chat_name, .chat_message_time_stamp {
+	padding: 0px 10px;
+}
+
+.chat_message_sent {
+	margin-bottom: 10px;
+}
